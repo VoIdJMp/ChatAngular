@@ -1,0 +1,89 @@
+{
+  "messages": [
+    {
+      "name": "Bob",
+      "messageText": "Hello:)",
+      "dataSend": "22.04.2020 19:30"
+    },
+    {
+      "name": "VoVa",
+      "messageText": "Hi!",
+      "dataSend": "22.04.2020 19:35"
+    },
+    {
+      "id": 3,
+      "name": "Bob3",
+      "messageText": "rg",
+      "dataSend": "2020-04-28T18:08:18.065Z"
+    },
+    {
+      "id": 4,
+      "name": "VoVa",
+      "messageText": "Hello evr)",
+      "dataSend": "2020-04-29T10:42:54.352Z"
+    },
+    {
+      "id": 5,
+      "name": "Bob3",
+      "messageText": "trhrh",
+      "dataSend": "2020-04-29T11:23:07.292Z"
+    },
+    {
+      "id": 6,
+      "name": "VoVa",
+      "messageText": "trhrth",
+      "dataSend": "2020-04-29T11:28:23.474Z"
+    },
+    {
+      "id": 7,
+      "name": "VoVa",
+      "messageText": "rthrth",
+      "dataSend": "2020-04-29T11:28:26.058Z"
+    },
+    {
+      "id": 8,
+      "name": "Bob1",
+      "messageText": "regreg",
+      "dataSend": "2020-04-29T11:28:57.890Z"
+    },
+    {
+      "id": 9,
+      "name": "VoVa",
+      "messageText": "trhhrh",
+      "dataSend": "2020-04-29T11:51:57.639Z"
+    },
+    {
+      "id": 10,
+      "name": "VoVa",
+      "messageText": "Hello",
+      "dataSend": "2020-04-29T12:00:05.013Z"
+    },
+    {
+      "id": 11,
+      "name": "VoVa",
+      "messageText": "How are you",
+      "dataSend": "2020-04-29T12:00:14.476Z"
+    }
+  ],
+  "users": [
+    {
+      "email": "bob@bob.ru",
+      "name": "Bob",
+      "lastName": "Bob",
+      "password": "123"
+    },
+    {
+      "email": "bob1@bob.ru",
+      "name": "Bob1",
+      "lastName": "Bob1",
+      "password": "456"
+    },
+    {
+      "id": 3,
+      "email": "voidjmp@mail.ru",
+      "name": "VoVa",
+      "lastname": "Vov",
+      "password": "123"
+    }
+  ]
+}

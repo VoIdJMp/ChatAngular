@@ -1,0 +1,27 @@
+<div class="msg_history">
+  <ul>
+    <li *ngFor = "let i of messages; let idx = index;">
+      <div *ngIf = "messageUser[idx] !== name else outl">
+        <div class="incoming_msg">
+          <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+          <div class="received_msg">
+            <div class="received_withd_msg">
+              <p>{{i}}</p>
+              <span class="time_date"> {{messagesDate[idx]}}</span></div>
+          </div>
+        </div>
+      </div>
+      <ng-template #outl>
+        <div class="outgoing_msg">
+          <div class="sent_msg">
+            <p>{{i}}</p>
+            <span class="time_date"> {{messagesDate[idx]}}</span>
+          </div>
+        </div>
+      </ng-template>
+    </li>
+  </ul>
+
+
+
+</div>
